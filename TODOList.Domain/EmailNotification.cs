@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//tash e bojm nje dryshim ktu, kete rresht,ok
 
 namespace TODOList.Domain
 {
