@@ -49,12 +49,12 @@
   <ItemGroup>
     <Compile Include="Assign.cs" />
     <Compile Include="Bug.cs" />
-    <Compile Include="Migrations\201803132207256_creatdb.cs" />
-    <Compile Include="Migrations\201803132207256_creatdb.Designer.cs">
-      <DependentUpon>201803132207256_creatdb.cs</DependentUpon>
+    <Compile Include="Migrations\201803181928517_CreateDB.cs" />
+    <Compile Include="Migrations\201803181928517_CreateDB.Designer.cs">
+      <DependentUpon>201803181928517_CreateDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Software.cs" />
+    <Compile Include="SoftwareTask.cs" />
     <Compile Include="EmailNotification.cs" />
     <Compile Include="Notification.cs" />
     <Compile Include="Person.cs" />
@@ -71,8 +71,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201803132207256_creatdb.resx">
-      <DependentUpon>201803132207256_creatdb.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201803181928517_CreateDB.resx">
+      <DependentUpon>201803181928517_CreateDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

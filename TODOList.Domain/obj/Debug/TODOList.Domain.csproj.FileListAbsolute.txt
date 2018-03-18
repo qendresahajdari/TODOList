@@ -8,7 +8,7 @@ C:\Users\Dessa\source\repos\TODOList\TODOList.Domain\bin\Debug\EntityFramework.d
 C:\Users\Dessa\source\repos\TODOList\TODOList.Domain\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Dessa\source\repos\TODOList\TODOList.Domain\bin\Debug\EntityFramework.xml
 C:\Users\Dessa\source\repos\TODOList\TODOList.Domain\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Dessa\source\repos\TODOList\TODOList.Domain\obj\Debug\TODOList.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Dessa\source\repos\TODOList\TODOList.Domain\obj\Debug\TODOList.Domain.csproj.CopyComplete
-C:\Users\Dessa\source\repos\TODOList\TODOList.Domain\obj\Debug\TODOList.Domain.Migrations.creatdb.resources
+C:\Users\Dessa\source\repos\TODOList\TODOList.Domain\obj\Debug\TODOList.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Dessa\source\repos\TODOList\TODOList.Domain\obj\Debug\TODOList.Domain.Migrations.CreateDB.resources
 C:\Users\Dessa\source\repos\TODOList\TODOList.Domain\obj\Debug\TODOList.Domain.csproj.GenerateResource.cache

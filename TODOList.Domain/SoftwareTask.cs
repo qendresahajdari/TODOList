@@ -6,15 +6,10 @@ using System.Threading.Tasks;
 
 namespace TODOList.Domain
 {
-    public class Bug : SoftwareTask
+    public class SoftwareTask : BaseTask
     {
-        public BugType BugType { get; set; }    
+        public string Module { get; set; }
+        public string Version { get; set; }
 
     }
-    public enum BugType
-    {
-        CRITICAL = 1,
-        MAJOR = 2
-    }
-
 }

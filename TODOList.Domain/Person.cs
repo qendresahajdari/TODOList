@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TODOList.Domain
 {
-    public abstract class Person
+    public abstract class Person 
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

@@ -12,8 +12,6 @@ namespace TODOList.Domain
         public int BaseTaskId { get; set; }
         public int PersonId { get; set; }
         public string Description { get; set; }
-      
-
 
         public bool Status{ get; set; }
         public DateTime Date{ get; set; }

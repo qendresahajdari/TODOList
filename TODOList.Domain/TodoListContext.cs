@@ -16,7 +16,7 @@ namespace TODOList.Domain
         public DbSet<Role> Roles { get; set; }
         public DbSet<Project> Projects { get; set; }
         public DbSet<BaseTask> BaseTasks { get; set; }
-        public DbSet<Software> Softwares { get; set; }
+        public DbSet<SoftwareTask> SoftwareTasks { get; set; }
         public DbSet<Bug> Bugs { get; set; }
         public DbSet<Assign> Assignes { get; set; }
         public DbSet<Notification> Notifications { get; set; }
