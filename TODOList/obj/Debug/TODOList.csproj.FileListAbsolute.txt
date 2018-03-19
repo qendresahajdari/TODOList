@@ -1,0 +1,3 @@
+D:\Bledar_DAKAJ\UBT-Dakaj\Master-UBT\Semestri_1\Programim i Avancuar\TODOList\TODOList\TODOList\obj\Debug\TODOList.csprojResolveAssemblyReference.cache
+D:\Bledar_DAKAJ\UBT-Dakaj\Master-UBT\Semestri_1\Programim i Avancuar\TODOList\TODOList\TODOList\obj\Debug\TODOList.csproj.CoreCompileInputs.cache
+D:\Bledar_DAKAJ\UBT-Dakaj\Master-UBT\Semestri_1\Programim i Avancuar\TODOList\TODOList\TODOList\obj\Debug\TODOList.dll
