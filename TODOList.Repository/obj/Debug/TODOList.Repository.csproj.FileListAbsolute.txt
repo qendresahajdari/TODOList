@@ -1,0 +1,15 @@
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\obj\Debug\TODOList.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\obj\Debug\TODOList.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\bin\Debug\TODOList.Repository.dll.config
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\bin\Debug\TODOList.Repository.dll
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\bin\Debug\TODOList.Repository.pdb
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\bin\Debug\TODOList.Domain.dll
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\bin\Debug\TODOList.Domain.pdb
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\bin\Debug\TODOList.Domain.dll.config
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\obj\Debug\TODOList.Repository.csproj.CopyComplete
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\obj\Debug\TODOList.Repository.dll
+C:\Users\Dessa\source\repos\TODOList\TODOList.Repository\obj\Debug\TODOList.Repository.pdb
