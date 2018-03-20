@@ -11,6 +11,7 @@ namespace TODOList.Repository
     {
         IEnumerable<User> GetAll();
         User GetByID(int Id);
+        User GetByUserName(string username);
         void Create(User user);
         void Delete(int Id);
         void Update(User user);

@@ -62,5 +62,10 @@ namespace TODOList.Repository
             Dispose(true);
             GC.SuppressFinalize(this);
         }
+
+        public User GetByUserName(string username)
+        {
+           return context.Users.Where(a => a.UserName.ToLower().Equals(username.ToLower())).FirstOrDefault();
+        }
     }
 }
