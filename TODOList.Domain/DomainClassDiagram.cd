@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TODOList.Domain.Assign">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAQAEAAAgAAAEAAAAAAAAAAAQAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assign.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Person" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TODOList.Domain.BaseTask">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAEAAAgAAAEAAAACAQgBAAAAAAAAAAAAEAACAA=</HashCode>
+      <FileName>BaseTask.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Project" />
+      <Property Name="Status" />
+      <Property Name="Priority" />
+      <Property Name="Person" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Assigns" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TODOList.Domain.Bug">
+    <Position X="3.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Bug.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BugType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TODOList.Domain.EmailNotification">
+    <Position X="6.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EmailNotification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TODOList.Domain.Notification">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACgAAAAAAAAAAAAMABAAAAAAAIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Notification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TODOList.Domain.Person">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAUAAACAAAAAAAAAAQAAAAAAAAAAAAAAAAAAACAg=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TODOList.Domain.Project">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAgAAAAAAAAAAQgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Project.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TODOList.Domain.Role">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Role.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Users" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TODOList.Domain.SmsNotification">
+    <Position X="11" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SmsNotification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TODOList.Domain.SoftwareTask">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>SoftwareTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TODOList.Domain.TodoListContext" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAASAAABAgAAAAgCAEAAAAAgAAAAAAAAAAAAkAAQA=</HashCode>
+      <FileName>TodoListContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TODOList.Domain.User">
+    <Position X="6.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAEAAAAAAAAAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TODOList.Domain.Migrations.CreateDB" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201803181928517_CreateDB.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TODOList.Domain.Migrations.Configuration" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TODOList.Domain.ProjectTaskPriority">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>BaseTask.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TODOList.Domain.TaskStatus">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAAAAgA=</HashCode>
+      <FileName>BaseTask.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TODOList.Domain.BugType">
+    <Position X="3.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bug.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
